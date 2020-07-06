@@ -21,9 +21,9 @@ public class Amin_Q5_Book {
         }
 
 
-        // method
-        static void numberOfPages () {
-            System.out.println();
+        // method - "getter". Should be "public"
+        public void numberOfPages () {
+            System.out.printf("The book, %s, has %d pages.", this.name,this.page);
         }
 
 
