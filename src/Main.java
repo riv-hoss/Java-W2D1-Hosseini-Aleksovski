@@ -1,6 +1,25 @@
 public class Main {
 
     public static void main(String[] args) {
+
+        // ========================================= Q2 =============================================
+
+
+        // ========================================= Q3 =============================================
+
+        Amin_Q3_BankAccount accountOne = new Amin_Q3_BankAccount
+                ("John Doe", 1000.0);
+        accountOne.deductBalance(1100);
+
+        accountOne.addBalance(100.0);
+        System.out.println("\n=====================================END OF A3========" +
+                "=============================\n");
+
+        // ========================================= Q4 =============================================
+
+
+        // ========================================= Q5 =============================================
+
         Amin_Q5_Book bookOne = new Amin_Q5_Book("Everything Store","Brad Stone",
                 "non-fiction","Little",384,2013, true);
 
@@ -38,6 +57,17 @@ public class Main {
 
         System.out.println("\n=====================================END OF A5========" +
                 "=============================\n");
+
+
+
+        // ========================================= Q6 =============================================
+        Amin_Q6_Room roomOne = new Amin_Q6_Room(4, false);
+        Amin_Q6_Room roomTwo = new Amin_Q6_Room(1, true);
+        Amin_Q6_Room roomThree = new Amin_Q6_Room(2, false);
+        Amin_Q6_Room roomFour = new Amin_Q6_Room(2, true);
+        Amin_Q6_Room roomFive = new Amin_Q6_Room(3, true);
+
+        System.out.println(roomFive.roomBooked());
 
     }
 
